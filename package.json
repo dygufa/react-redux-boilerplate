@@ -35,8 +35,12 @@
   "devDependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
+    "css-loader": "^0.25.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "redux-devtools": "^3.3.1",
     "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
     "ts-loader": "^0.9.1"
   }
 }

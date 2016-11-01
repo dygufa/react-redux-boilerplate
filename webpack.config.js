@@ -18,6 +18,10 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 loader: "babel?presets[]=es2015!ts-loader"
+            },
+            {
+                test: /\.less$/,
+                loader: "style!css!less"
             }
         ],
 

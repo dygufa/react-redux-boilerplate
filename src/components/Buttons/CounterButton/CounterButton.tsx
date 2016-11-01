@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./CounterButton.less";
 
 export interface Props {
     onClick: React.EventHandler<React.MouseEvent<HTMLButtonElement>>;
@@ -8,6 +9,7 @@ export interface Props {
 const CounterButton = ({ onClick, children }: Props) => {
     return (
         <button
+            className="purpleButton"
             onClick={onClick}
         >
             {children}
